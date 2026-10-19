@@ -1,0 +1,1055 @@
+{
+ "meta": {
+  "generated": "2026-10-19",
+  "note": "verify:true marks edition/year/page details to confirm before any public release."
+ },
+ "sources": [
+  {
+   "id": "grays-42",
+   "type": "book",
+   "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice",
+   "authors": "Standring S (ed.)",
+   "year": 2020,
+   "edition": "42nd",
+   "publisher": "Elsevier",
+   "usedFor": "Curriculum structure & structure lists (all regions)",
+   "verify": false
+  },
+  {
+   "id": "grays-students",
+   "type": "book",
+   "title": "Gray's Anatomy for Students",
+   "authors": "Drake RL, Vogl AW, Mitchell AWM",
+   "year": 2023,
+   "edition": "5th",
+   "publisher": "Elsevier",
+   "usedFor": "Curriculum ordering & subtopic checklists",
+   "verify": true
+  },
+  {
+   "id": "netter-8",
+   "type": "book",
+   "title": "Netter Atlas of Human Anatomy: Classic Regional Approach",
+   "authors": "Netter FH",
+   "year": 2022,
+   "edition": "8th",
+   "publisher": "Elsevier",
+   "usedFor": "Regional structure lists",
+   "verify": false
+  },
+  {
+   "id": "lasts",
+   "type": "book",
+   "title": "Last's Anatomy: Regional and Applied",
+   "authors": "Sinnatamby CS",
+   "year": 2011,
+   "edition": "12th",
+   "publisher": "Churchill Livingstone / Elsevier",
+   "usedFor": "Applied/surgical anatomy subtopics",
+   "verify": true
+  },
+  {
+   "id": "mcminn",
+   "type": "book",
+   "title": "McMinn and Abrahams' Clinical Atlas of Human Anatomy",
+   "authors": "Abrahams PH, Spratt JD, Loukas M, van Schoor AN",
+   "year": 2019,
+   "edition": "8th",
+   "publisher": "Elsevier",
+   "usedFor": "Surface anatomy & osteology topics",
+   "verify": true
+  },
+  {
+   "id": "ta2",
+   "type": "standard",
+   "title": "Terminologia Anatomica, 2nd edition",
+   "authors": "Federative International Programme for Anatomical Terminology (FIPAT)",
+   "year": 2019,
+   "edition": "2nd",
+   "publisher": "FIPAT",
+   "url": "https://fipat.library.dal.ca/ta2/",
+   "usedFor": "Canonical English structure names",
+   "verify": false
+  },
+  {
+   "id": "hoppenfeld",
+   "type": "book",
+   "title": "Surgical Exposures in Orthopaedics: The Anatomic Approach",
+   "authors": "Hoppenfeld S, deBoer P, Buckley R",
+   "year": 2016,
+   "edition": "5th",
+   "publisher": "Wolters Kluwer",
+   "usedFor": "Surgical approach topics & internervous planes",
+   "verify": true
+  },
+  {
+   "id": "rockwood-green",
+   "type": "book",
+   "title": "Rockwood and Green's Fractures in Adults",
+   "authors": "Tornetta P III, Ricci WM, Ostrum RF, McQueen MM, McKee MD, Court-Brown CM (eds)",
+   "year": 2019,
+   "edition": "9th",
+   "publisher": "Wolters Kluwer",
+   "usedFor": "Named adult fracture classifications (all regions)",
+   "verify": true
+  },
+  {
+   "id": "rockwood-green-child",
+   "type": "book",
+   "title": "Rockwood and Wilkins' Fractures in Children",
+   "authors": "Waters PM, Skaggs DL, Flynn JM (eds)",
+   "year": 2019,
+   "edition": "9th",
+   "publisher": "Wolters Kluwer",
+   "usedFor": "Paediatric classifications",
+   "verify": true
+  },
+  {
+   "id": "millers",
+   "type": "book",
+   "title": "Miller's Review of Orthopaedics",
+   "authors": "Miller MD, Thompson SR (eds)",
+   "year": 2020,
+   "edition": "8th",
+   "publisher": "Elsevier",
+   "usedFor": "Cross-check of classification grades; FRCS-level emphasis",
+   "verify": true
+  },
+  {
+   "id": "orthobullets",
+   "type": "website",
+   "title": "Orthobullets",
+   "authors": "Lineage Medical",
+   "year": 2026,
+   "url": "https://www.orthobullets.com",
+   "usedFor": "Cross-check of eponyms and grades (accessed Oct 2026)",
+   "verify": false
+  },
+  {
+   "id": "ao-ota-2018",
+   "type": "journal-supplement",
+   "title": "Fracture and Dislocation Classification Compendium—2018",
+   "authors": "Meinberg EG, Agel J, Roberts CS, Karam MD, Kellam JF",
+   "year": 2018,
+   "journal": "J Orthop Trauma",
+   "ref": "32(Suppl 1):S1–S170",
+   "url": "https://ota.org/research/publications/fracture-and-dislocation-compendium",
+   "usedFor": "All AO/OTA bone/segment/type/group codes",
+   "verify": false
+  },
+  {
+   "id": "ao-surgery-ref",
+   "type": "website",
+   "title": "AO Surgery Reference",
+   "authors": "AO Foundation",
+   "year": 2026,
+   "url": "https://surgeryreference.aofoundation.org",
+   "usedFor": "AO/OTA & paediatric (PCCF) code cross-check; approaches",
+   "verify": false
+  },
+  {
+   "id": "ao-pccf-2007",
+   "type": "journal-supplement",
+   "title": "Fracture and dislocation classification compendium for children: the AO Pediatric Comprehensive Classification of Long Bone Fractures (PCCF)",
+   "authors": "Slongo TF, Audigé L; AO Pediatric Classification Group",
+   "year": 2007,
+   "journal": "J Orthop Trauma",
+   "ref": "21(10 Suppl):S135–S160",
+   "usedFor": "Paediatric E/M/D codes",
+   "verify": false
+  },
+  {
+   "id": "aospine",
+   "type": "website",
+   "title": "AO Spine Classification Systems",
+   "authors": "AO Spine",
+   "year": 2026,
+   "url": "https://www.aofoundation.org/spine/clinical-library-and-tools/aospine-classification-systems",
+   "usedFor": "AOSpine upper cervical, subaxial, thoracolumbar, sacral",
+   "verify": true
+  },
+  {
+   "id": "aospine-tl-2013",
+   "type": "journal",
+   "title": "AOSpine thoracolumbar spine injury classification system: fracture description, neurological status, and key modifiers",
+   "authors": "Vaccaro AR, Oner C, Kepler CK, et al.",
+   "year": 2013,
+   "journal": "Spine",
+   "ref": "38(23):2028–2037",
+   "verify": false
+  },
+  {
+   "id": "aospine-subaxial-2016",
+   "type": "journal",
+   "title": "AOSpine subaxial cervical spine injury classification system",
+   "authors": "Vaccaro AR, Koerner JD, Radcliff KE, et al.",
+   "year": 2016,
+   "journal": "Eur Spine J",
+   "ref": "25(7):2173–2184",
+   "verify": false
+  },
+  {
+   "id": "aospine-sacral-2017",
+   "type": "journal",
+   "title": "AOSpine sacral classification system",
+   "authors": "Vaccaro AR, Schroeder GD, et al.",
+   "year": 2017,
+   "usedFor": "Sacral A/B/C groups — confirm year, journal and group wording",
+   "verify": true
+  },
+  {
+   "id": "ao-cmf-2014",
+   "type": "journal-supplement",
+   "title": "The comprehensive AOCMF classification system",
+   "authors": "Cornelius CP, Audigé L, Kunz C, et al.",
+   "year": 2014,
+   "journal": "Craniomaxillofac Trauma Reconstr",
+   "ref": "7(Suppl 1)",
+   "verify": true
+  },
+  {
+   "id": "dgou-of-2018",
+   "type": "journal",
+   "title": "Classification of osteoporotic thoracolumbar spine fractures: recommendations of the Spine Section of the German Society for Orthopaedics and Trauma (DGOU)",
+   "authors": "Schnake KJ, Blattert TR, Hahn P, et al.",
+   "year": 2018,
+   "journal": "Global Spine J",
+   "ref": "8(2 Suppl):46S–49S",
+   "verify": false
+  },
+  {
+   "id": "isncsci-2019",
+   "type": "standard",
+   "title": "International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI), revised 2019",
+   "authors": "American Spinal Injury Association (ASIA) / ISCoS",
+   "year": 2019,
+   "url": "https://asia-spinalinjury.org/international-standards-neurological-classification-sci-isncsci-worksheet/",
+   "verify": false
+  },
+  {
+   "id": "boast-open",
+   "type": "guideline",
+   "title": "BOAST: Open Fractures",
+   "authors": "British Orthopaedic Association",
+   "year": 2017,
+   "url": "https://www.boa.ac.uk/standards-guidance/boasts.html",
+   "verify": true
+  },
+  {
+   "id": "boast-supracondylar",
+   "type": "guideline",
+   "title": "BOAST: Supracondylar Fractures in the Humerus in Children",
+   "authors": "British Orthopaedic Association",
+   "year": 2020,
+   "url": "https://www.boa.ac.uk/standards-guidance/boasts.html",
+   "verify": true
+  },
+  {
+   "id": "boast-periprosthetic",
+   "type": "guideline",
+   "title": "BOAST: Periprosthetic Fractures of the Femur",
+   "authors": "British Orthopaedic Association",
+   "year": 2021,
+   "url": "https://www.boa.ac.uk/standards-guidance/boasts.html",
+   "verify": true
+  },
+  {
+   "id": "nice-cg124",
+   "type": "guideline",
+   "title": "Hip fracture: management (CG124)",
+   "authors": "National Institute for Health and Care Excellence",
+   "year": 2011,
+   "url": "https://www.nice.org.uk/guidance/cg124",
+   "usedFor": "Garden displaced/undisplaced framing (updated 2023)",
+   "verify": false
+  },
+  {
+   "id": "gustilo-1976",
+   "type": "journal",
+   "title": "Prevention of infection in the treatment of one thousand and twenty-five open fractures of long bones",
+   "authors": "Gustilo RB, Anderson JT",
+   "year": 1976,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "58(4):453–458",
+   "verify": false
+  },
+  {
+   "id": "gustilo-1984",
+   "type": "journal",
+   "title": "Problems in the management of type III (severe) open fractures: a new classification of type III open fractures",
+   "authors": "Gustilo RB, Mendoza RM, Williams DN",
+   "year": 1984,
+   "journal": "J Trauma",
+   "ref": "24(8):742–746",
+   "verify": false
+  },
+  {
+   "id": "ota-ofc-2010",
+   "type": "journal",
+   "title": "A new classification scheme for open fractures",
+   "authors": "Orthopaedic Trauma Association: Open Fracture Study Group",
+   "year": 2010,
+   "journal": "J Orthop Trauma",
+   "ref": "24(8):457–464",
+   "verify": false
+  },
+  {
+   "id": "tscherne-1984",
+   "type": "book-chapter",
+   "title": "Pathophysiology and classification of soft tissue injuries associated with fractures",
+   "authors": "Oestern HJ, Tscherne H",
+   "year": 1984,
+   "publisher": "Springer",
+   "ref": "In: Tscherne H, Gotzen L (eds). Fractures with Soft Tissue Injuries",
+   "verify": true
+  },
+  {
+   "id": "salter-harris-1963",
+   "type": "journal",
+   "title": "Injuries involving the epiphyseal plate",
+   "authors": "Salter RB, Harris WR",
+   "year": 1963,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "45(3):587–622",
+   "verify": false
+  },
+  {
+   "id": "peterson-1994",
+   "type": "journal",
+   "title": "Physeal fractures: Part 3. Classification",
+   "authors": "Peterson HA",
+   "year": 1994,
+   "journal": "J Pediatr Orthop",
+   "ref": "14(4):439–448",
+   "verify": false
+  },
+  {
+   "id": "mirels-1989",
+   "type": "journal",
+   "title": "Metastatic disease in long bones: a proposed scoring system for diagnosing impending pathologic fractures",
+   "authors": "Mirels H",
+   "year": 1989,
+   "journal": "Clin Orthop Relat Res",
+   "ref": "(249):256–264",
+   "verify": false
+  },
+  {
+   "id": "duncan-haddad-2014",
+   "type": "journal",
+   "title": "The Unified Classification System (UCS): improving our understanding of periprosthetic fractures",
+   "authors": "Duncan CP, Haddad FS",
+   "year": 2014,
+   "journal": "Bone Joint J",
+   "ref": "96-B(6):713–716",
+   "verify": false
+  },
+  {
+   "id": "duncan-masri-1995",
+   "type": "journal",
+   "title": "Fractures of the femur after hip replacement",
+   "authors": "Duncan CP, Masri BA",
+   "year": 1995,
+   "journal": "Instr Course Lect",
+   "ref": "44:293–304",
+   "verify": false
+  },
+  {
+   "id": "robinson-1998",
+   "type": "journal",
+   "title": "Fractures of the clavicle in the adult: epidemiology and classification",
+   "authors": "Robinson CM",
+   "year": 1998,
+   "journal": "J Bone Joint Surg Br",
+   "ref": "80(3):476–484",
+   "verify": false
+  },
+  {
+   "id": "neer-1970",
+   "type": "journal",
+   "title": "Displaced proximal humeral fractures. I. Classification and evaluation",
+   "authors": "Neer CS II",
+   "year": 1970,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "52(6):1077–1089",
+   "verify": false
+  },
+  {
+   "id": "hertel-2004",
+   "type": "journal",
+   "title": "Predictors of humeral head ischemia after intracapsular fracture of the proximal humerus",
+   "authors": "Hertel R, Hempfing A, Stiehler M, Leunig M",
+   "year": 2004,
+   "journal": "J Shoulder Elbow Surg",
+   "ref": "13(4):427–433",
+   "verify": false
+  },
+  {
+   "id": "wright-cofield-1995",
+   "type": "journal",
+   "title": "Humeral fractures after shoulder arthroplasty",
+   "authors": "Wright TW, Cofield RH",
+   "year": 1995,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "77(9):1340–1346",
+   "verify": false
+  },
+  {
+   "id": "dubberley-2006",
+   "type": "journal",
+   "title": "Outcome after open reduction and internal fixation of capitellar and trochlear fractures",
+   "authors": "Dubberley JH, Faber KJ, MacDermid JC, Patterson SD, King GJW",
+   "year": 2006,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "88(1):46–54",
+   "verify": false
+  },
+  {
+   "id": "gartland-1959",
+   "type": "journal",
+   "title": "Management of supracondylar fractures of the humerus in children",
+   "authors": "Gartland JJ",
+   "year": 1959,
+   "journal": "Surg Gynecol Obstet",
+   "ref": "109(2):145–154",
+   "verify": false
+  },
+  {
+   "id": "weiss-2009",
+   "type": "journal",
+   "title": "A new classification system predictive of complications in surgically treated pediatric humeral lateral condyle fractures",
+   "authors": "Weiss JM, Graves S, Yang S, et al.",
+   "year": 2009,
+   "journal": "J Pediatr Orthop",
+   "ref": "29(6):602–605",
+   "verify": false
+  },
+  {
+   "id": "song-2008",
+   "type": "journal",
+   "title": "Closed reduction and internal fixation of displaced unstable lateral condylar fractures of the humerus in children",
+   "authors": "Song KS, Kang CH, Min BW, et al.",
+   "year": 2008,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "90(12):2673–2681",
+   "verify": false
+  },
+  {
+   "id": "mason-1954",
+   "type": "journal",
+   "title": "Some observations on fractures of the head of the radius with a review of one hundred cases",
+   "authors": "Mason ML",
+   "year": 1954,
+   "journal": "Br J Surg",
+   "ref": "42(172):123–132",
+   "verify": false
+  },
+  {
+   "id": "rettig-raskin-2001",
+   "type": "journal",
+   "title": "Galeazzi fracture-dislocation: a new treatment-oriented classification",
+   "authors": "Rettig ME, Raskin KB",
+   "year": 2001,
+   "journal": "J Hand Surg Am",
+   "ref": "26(2):228–235",
+   "verify": false
+  },
+  {
+   "id": "frykman-1967",
+   "type": "journal-supplement",
+   "title": "Fracture of the distal radius including sequelae",
+   "authors": "Frykman G",
+   "year": 1967,
+   "journal": "Acta Orthop Scand",
+   "ref": "Suppl 108:1–153",
+   "verify": false
+  },
+  {
+   "id": "fernandez-1993",
+   "type": "journal",
+   "title": "Fractures of the distal radius: operative treatment",
+   "authors": "Fernandez DL",
+   "year": 1993,
+   "journal": "Instr Course Lect",
+   "ref": "42:73–88",
+   "verify": false
+  },
+  {
+   "id": "regan-morrey-1989",
+   "type": "journal",
+   "title": "Fractures of the coronoid process of the ulna",
+   "authors": "Regan W, Morrey B",
+   "year": 1989,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "71(9):1348–1354",
+   "verify": false
+  },
+  {
+   "id": "odriscoll-2003",
+   "type": "journal",
+   "title": "Difficult elbow fractures: pearls and pitfalls",
+   "authors": "O'Driscoll SW, Jupiter JB, Cohen MS, Ring D, McKee MD",
+   "year": 2003,
+   "journal": "Instr Course Lect",
+   "ref": "52:113–134",
+   "verify": false
+  },
+  {
+   "id": "bado-1967",
+   "type": "journal",
+   "title": "The Monteggia lesion",
+   "authors": "Bado JL",
+   "year": 1967,
+   "journal": "Clin Orthop Relat Res",
+   "ref": "50:71–86",
+   "verify": false
+  },
+  {
+   "id": "jupiter-1991",
+   "type": "journal",
+   "title": "The posterior Monteggia lesion",
+   "authors": "Jupiter JB, Leibovic SJ, Ribbans W, Wilk RM",
+   "year": 1991,
+   "journal": "J Orthop Trauma",
+   "ref": "5(4):395–402",
+   "verify": false
+  },
+  {
+   "id": "palmer-1989",
+   "type": "journal",
+   "title": "Triangular fibrocartilage complex lesions: a classification",
+   "authors": "Palmer AK",
+   "year": 1989,
+   "journal": "J Hand Surg Am",
+   "ref": "14(4):594–606",
+   "verify": false
+  },
+  {
+   "id": "herbert-1984",
+   "type": "journal",
+   "title": "Management of the fractured scaphoid using a new bone screw",
+   "authors": "Herbert TJ, Fisher WE",
+   "year": 1984,
+   "journal": "J Bone Joint Surg Br",
+   "ref": "66(1):114–123",
+   "verify": false
+  },
+  {
+   "id": "mayfield-1980",
+   "type": "journal",
+   "title": "Carpal dislocations: pathomechanics and progressive perilunar instability",
+   "authors": "Mayfield JK, Johnson RP, Kilcoyne RK",
+   "year": 1980,
+   "journal": "J Hand Surg Am",
+   "ref": "5(3):226–241",
+   "verify": false
+  },
+  {
+   "id": "lichtman-1977",
+   "type": "journal",
+   "title": "Kienböck's disease: the role of silicone replacement arthroplasty",
+   "authors": "Lichtman DM, Mack GR, MacDonald RI, Gunther SF, Wilson JN",
+   "year": 1977,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "59(7):899–908",
+   "verify": false
+  },
+  {
+   "id": "anderson-dalonzo-1974",
+   "type": "journal",
+   "title": "Fractures of the odontoid process of the axis",
+   "authors": "Anderson LD, D'Alonzo RT",
+   "year": 1974,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "56(8):1663–1674",
+   "verify": false
+  },
+  {
+   "id": "grauer-2005",
+   "type": "journal",
+   "title": "Proposal of a modified, treatment-oriented classification of odontoid fractures",
+   "authors": "Grauer JN, Shafi B, Hilibrand AS, et al.",
+   "year": 2005,
+   "journal": "Spine J",
+   "ref": "5(2):123–129",
+   "verify": false
+  },
+  {
+   "id": "levine-edwards-1985",
+   "type": "journal",
+   "title": "The management of traumatic spondylolisthesis of the axis",
+   "authors": "Levine AM, Edwards CC",
+   "year": 1985,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "67(2):217–226",
+   "verify": false
+  },
+  {
+   "id": "vaccaro-slic-2007",
+   "type": "journal",
+   "title": "The subaxial cervical spine injury classification system",
+   "authors": "Vaccaro AR, Hulbert RJ, Patel AA, et al.",
+   "year": 2007,
+   "journal": "Spine",
+   "ref": "32(21):2365–2374",
+   "verify": false
+  },
+  {
+   "id": "vaccaro-tlics-2005",
+   "type": "journal",
+   "title": "A new classification of thoracolumbar injuries",
+   "authors": "Vaccaro AR, Lehman RA Jr, Hurlbert RJ, et al.",
+   "year": 2005,
+   "journal": "Spine",
+   "ref": "30(20):2325–2333",
+   "verify": false
+  },
+  {
+   "id": "denis-1983",
+   "type": "journal",
+   "title": "The three column spine and its significance in the classification of acute thoracolumbar spinal injuries",
+   "authors": "Denis F",
+   "year": 1983,
+   "journal": "Spine",
+   "ref": "8(8):817–831",
+   "verify": false
+  },
+  {
+   "id": "denis-sacrum-1988",
+   "type": "journal",
+   "title": "Sacral fractures: an important problem. Retrospective analysis of 236 cases",
+   "authors": "Denis F, Davis S, Comfort T",
+   "year": 1988,
+   "journal": "Clin Orthop Relat Res",
+   "ref": "(227):67–81",
+   "verify": false
+  },
+  {
+   "id": "genant-1993",
+   "type": "journal",
+   "title": "Vertebral fracture assessment using a semiquantitative technique",
+   "authors": "Genant HK, Wu CY, van Kuijk C, Nevitt MC",
+   "year": 1993,
+   "journal": "J Bone Miner Res",
+   "ref": "8(9):1137–1148",
+   "verify": false
+  },
+  {
+   "id": "tile-1988",
+   "type": "journal",
+   "title": "Pelvic ring fractures: should they be fixed?",
+   "authors": "Tile M",
+   "year": 1988,
+   "journal": "J Bone Joint Surg Br",
+   "ref": "70(1):1–12",
+   "verify": false
+  },
+  {
+   "id": "young-burgess-1986",
+   "type": "journal",
+   "title": "Pelvic fractures: value of plain radiography in early assessment and management",
+   "authors": "Young JW, Burgess AR, Brumback RJ, Poka A",
+   "year": 1986,
+   "journal": "Radiology",
+   "ref": "160(2):445–451",
+   "verify": false
+  },
+  {
+   "id": "rommens-2013",
+   "type": "journal",
+   "title": "Comprehensive classification of fragility fractures of the pelvic ring: recommendations for surgical treatment",
+   "authors": "Rommens PM, Hofmann A",
+   "year": 2013,
+   "journal": "Injury",
+   "ref": "44(12):1733–1744",
+   "verify": false
+  },
+  {
+   "id": "letournel-1993",
+   "type": "book",
+   "title": "Fractures of the Acetabulum",
+   "authors": "Letournel E, Judet R",
+   "year": 1993,
+   "edition": "2nd",
+   "publisher": "Springer",
+   "verify": false
+  },
+  {
+   "id": "garden-1961",
+   "type": "journal",
+   "title": "Low-angle fixation in fractures of the femoral neck",
+   "authors": "Garden RS",
+   "year": 1961,
+   "journal": "J Bone Joint Surg Br",
+   "ref": "43-B(4):647–663",
+   "verify": false
+  },
+  {
+   "id": "evans-1949",
+   "type": "journal",
+   "title": "The treatment of trochanteric fractures of the femur",
+   "authors": "Evans EM",
+   "year": 1949,
+   "journal": "J Bone Joint Surg Br",
+   "ref": "31B(2):190–203",
+   "verify": false
+  },
+  {
+   "id": "jensen-1980",
+   "type": "journal",
+   "title": "Classification of trochanteric fractures",
+   "authors": "Jensen JS",
+   "year": 1980,
+   "journal": "Acta Orthop Scand",
+   "ref": "51(5):803–810",
+   "verify": true
+  },
+  {
+   "id": "seinsheimer-1978",
+   "type": "journal",
+   "title": "Subtrochanteric fractures of the femur",
+   "authors": "Seinsheimer F",
+   "year": 1978,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "60(3):300–306",
+   "verify": false
+  },
+  {
+   "id": "pipkin-1957",
+   "type": "journal",
+   "title": "Treatment of grade IV fracture-dislocation of the hip",
+   "authors": "Pipkin G",
+   "year": 1957,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "39-A(5):1027–1042",
+   "verify": false
+  },
+  {
+   "id": "loder-1993",
+   "type": "journal",
+   "title": "Acute slipped capital femoral epiphysis: the importance of physeal stability",
+   "authors": "Loder RT, Richards BS, Shapiro PS, Reznick LR, Aronson DD",
+   "year": 1993,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "75(8):1134–1140",
+   "verify": false
+  },
+  {
+   "id": "southwick-1967",
+   "type": "journal",
+   "title": "Osteotomy through the lesser trochanter for slipped capital femoral epiphysis",
+   "authors": "Southwick WO",
+   "year": 1967,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "49(5):807–835",
+   "verify": false
+  },
+  {
+   "id": "shane-2014",
+   "type": "journal",
+   "title": "Atypical subtrochanteric and diaphyseal femoral fractures: second report of a task force of the ASBMR",
+   "authors": "Shane E, Burr D, Abrahamsen B, et al.",
+   "year": 2014,
+   "journal": "J Bone Miner Res",
+   "ref": "29(1):1–23",
+   "verify": false
+  },
+  {
+   "id": "winquist-1984",
+   "type": "journal",
+   "title": "Closed intramedullary nailing of femoral fractures: a report of five hundred and twenty cases",
+   "authors": "Winquist RA, Hansen ST Jr, Clawson DK",
+   "year": 1984,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "66(4):529–539",
+   "verify": false
+  },
+  {
+   "id": "rorabeck-1999",
+   "type": "journal",
+   "title": "Classification of periprosthetic fractures complicating total knee arthroplasty",
+   "authors": "Rorabeck CH, Taylor JW",
+   "year": 1999,
+   "journal": "Orthop Clin North Am",
+   "ref": "30(2):209–214",
+   "verify": true
+  },
+  {
+   "id": "su-2004",
+   "type": "journal",
+   "title": "Periprosthetic femoral fractures above total knee replacements",
+   "authors": "Su ET, DeWal H, Di Cesare PE",
+   "year": 2004,
+   "journal": "J Am Acad Orthop Surg",
+   "ref": "12(1):12–20",
+   "verify": false
+  },
+  {
+   "id": "ortiguera-berry-2002",
+   "type": "journal",
+   "title": "Patellar fracture after total knee arthroplasty",
+   "authors": "Ortiguera CJ, Berry DJ",
+   "year": 2002,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "84(4):532–540",
+   "verify": false
+  },
+  {
+   "id": "schatzker-1979",
+   "type": "journal",
+   "title": "The tibial plateau fracture: the Toronto experience 1968–1975",
+   "authors": "Schatzker J, McBroom R, Bruce D",
+   "year": 1979,
+   "journal": "Clin Orthop Relat Res",
+   "ref": "(138):94–104",
+   "verify": false
+  },
+  {
+   "id": "luo-2010",
+   "type": "journal",
+   "title": "Three-column fixation for complex tibial plateau fractures",
+   "authors": "Luo CF, Sun H, Zhang B, Zeng BF",
+   "year": 2010,
+   "journal": "J Orthop Trauma",
+   "ref": "24(11):683–692",
+   "verify": false
+  },
+  {
+   "id": "felix-1997",
+   "type": "journal",
+   "title": "Periprosthetic fractures of the tibia associated with total knee arthroplasty",
+   "authors": "Felix NA, Stuart MJ, Hanssen AD",
+   "year": 1997,
+   "journal": "Clin Orthop Relat Res",
+   "ref": "(345):113–124",
+   "verify": false
+  },
+  {
+   "id": "topliss-2005",
+   "type": "journal",
+   "title": "Anatomy of pilon fractures of the distal tibia",
+   "authors": "Topliss CJ, Jackson M, Atkins RM",
+   "year": 2005,
+   "journal": "J Bone Joint Surg Br",
+   "ref": "87(5):692–697",
+   "verify": false
+  },
+  {
+   "id": "haraguchi-2006",
+   "type": "journal",
+   "title": "Pathoanatomy of posterior malleolar fractures of the ankle",
+   "authors": "Haraguchi N, Haruyama H, Toga H, Kato F",
+   "year": 2006,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "88(5):1085–1092",
+   "verify": false
+  },
+  {
+   "id": "bartonicek-2015",
+   "type": "journal",
+   "title": "Anatomy and classification of the posterior tibial fragment in ankle fractures",
+   "authors": "Bartoníček J, Rammelt S, Kostlivý K, et al.",
+   "year": 2015,
+   "journal": "Arch Orthop Trauma Surg",
+   "ref": "135(4):505–516",
+   "verify": false
+  },
+  {
+   "id": "mason-molloy-2017",
+   "type": "journal",
+   "title": "Pathoanatomy and classification of posterior malleolus fractures using CT",
+   "authors": "Mason LW, Marlow WJ, Widnall J, Molloy AP",
+   "year": 2017,
+   "journal": "Foot Ankle Int",
+   "ref": "38(11):1229–1235",
+   "verify": false
+  },
+  {
+   "id": "weber-1972",
+   "type": "book",
+   "title": "Die Verletzungen des oberen Sprunggelenkes",
+   "authors": "Weber BG",
+   "year": 1972,
+   "edition": "2nd",
+   "publisher": "Huber",
+   "verify": false
+  },
+  {
+   "id": "lauge-hansen-1950",
+   "type": "journal",
+   "title": "Fractures of the ankle. II. Combined experimental-surgical and experimental-roentgenologic investigations",
+   "authors": "Lauge-Hansen N",
+   "year": 1950,
+   "journal": "Arch Surg",
+   "ref": "60(5):957–985",
+   "verify": false
+  },
+  {
+   "id": "hawkins-1970",
+   "type": "journal",
+   "title": "Fractures of the neck of the talus",
+   "authors": "Hawkins LG",
+   "year": 1970,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "52(5):991–1002",
+   "verify": false
+  },
+  {
+   "id": "sanders-1993",
+   "type": "journal",
+   "title": "Operative treatment in 120 displaced intraarticular calcaneal fractures: results using a prognostic computed tomography scan classification",
+   "authors": "Sanders R, Fortin P, DiPasquale T, Walling A",
+   "year": 1993,
+   "journal": "Clin Orthop Relat Res",
+   "ref": "(290):87–95",
+   "verify": false
+  },
+  {
+   "id": "essex-lopresti-1952",
+   "type": "journal",
+   "title": "The mechanism, reduction technique, and results in fractures of the os calcis",
+   "authors": "Essex-Lopresti P",
+   "year": 1952,
+   "journal": "Br J Surg",
+   "ref": "39(157):395–419",
+   "verify": false
+  },
+  {
+   "id": "hardcastle-1982",
+   "type": "journal",
+   "title": "Injuries to the tarsometatarsal joint: incidence, classification and treatment",
+   "authors": "Hardcastle PH, Reschauer R, Kutscha-Lissberg E, Schoffmann W",
+   "year": 1982,
+   "journal": "J Bone Joint Surg Br",
+   "ref": "64(3):349–356",
+   "verify": false
+  },
+  {
+   "id": "myerson-1986",
+   "type": "journal",
+   "title": "Fracture dislocations of the tarsometatarsal joints: end results correlated with pathology and treatment",
+   "authors": "Myerson MS, Fisher RT, Burgess AR, Kenzora JE",
+   "year": 1986,
+   "journal": "Foot Ankle",
+   "ref": "6(5):225–242",
+   "verify": false
+  },
+  {
+   "id": "lawrence-botte-1993",
+   "type": "journal",
+   "title": "Jones fractures and related fractures of the proximal fifth metatarsal",
+   "authors": "Lawrence SJ, Botte MJ",
+   "year": 1993,
+   "journal": "Foot Ankle",
+   "ref": "14(6):358–365",
+   "verify": false
+  },
+  {
+   "id": "torg-1984",
+   "type": "journal",
+   "title": "Fractures of the base of the fifth metatarsal distal to the tuberosity",
+   "authors": "Torg JS, Balduini FC, Zelko RR, et al.",
+   "year": 1984,
+   "journal": "J Bone Joint Surg Am",
+   "ref": "66(2):209–214",
+   "verify": false
+  },
+  {
+   "id": "bodyparts3d",
+   "type": "dataset",
+   "title": "BodyParts3D",
+   "authors": "Database Center for Life Science (DBCLS); Mitsuhashi N, Fujieda K, Tamura T, et al.",
+   "year": 2009,
+   "journal": "Nucleic Acids Res",
+   "ref": "37(Database issue):D782–D785",
+   "url": "https://lifesciencedb.jp/bp3d/",
+   "licence": "CC BY-SA 2.1 Japan",
+   "usedFor": "3D meshes (placeholder — confirm version, licence & attribution text)",
+   "verify": true
+  },
+  {
+   "id": "z-anatomy",
+   "type": "dataset",
+   "title": "Z-Anatomy",
+   "authors": "Kervyn G (Z-Anatomy project), derived in part from BodyParts3D",
+   "year": 2021,
+   "url": "https://www.z-anatomy.com",
+   "licence": "CC BY-SA 4.0",
+   "usedFor": "3D meshes & TA-based naming (placeholder — confirm repository, version & licence)",
+   "verify": true
+  }
+ ],
+ "sectionBasis": {
+  "curriculum.json — topic list & ordering": [
+   "grays-42",
+   "grays-students",
+   "netter-8",
+   "lasts",
+   "mcminn"
+  ],
+  "curriculum.json — structure names": [
+   "ta2",
+   "grays-42"
+  ],
+  "curriculum.json — surgical approaches & internervous planes": [
+   "hoppenfeld",
+   "ao-surgery-ref"
+  ],
+  "curriculum.json — clinical subtopics": [
+   "millers",
+   "rockwood-green",
+   "orthobullets"
+  ],
+  "fractures.json — AO/OTA codes (systems with system = \"AO/OTA\")": [
+   "ao-ota-2018",
+   "ao-surgery-ref"
+  ],
+  "fractures.json — AO paediatric (PCCF)": [
+   "ao-pccf-2007",
+   "ao-surgery-ref"
+  ],
+  "fractures.json — AOSpine / TLICS / SLIC / Denis": [
+   "aospine",
+   "aospine-tl-2013",
+   "aospine-subaxial-2016",
+   "vaccaro-tlics-2005",
+   "vaccaro-slic-2007",
+   "denis-1983"
+  ],
+  "fractures.json — named & eponymous adult classifications": [
+   "rockwood-green",
+   "millers",
+   "orthobullets",
+   "(primary paper cited per system)"
+  ],
+  "fractures.json — paediatric classifications": [
+   "rockwood-green-child",
+   "salter-harris-1963",
+   "peterson-1994",
+   "(primary paper cited per system)"
+  ],
+  "fractures.json — periprosthetic": [
+   "duncan-masri-1995",
+   "duncan-haddad-2014",
+   "rorabeck-1999",
+   "su-2004",
+   "felix-1997",
+   "ortiguera-berry-2002",
+   "wright-cofield-1995"
+  ],
+  "fractures.json — open fracture & soft tissue": [
+   "gustilo-1976",
+   "gustilo-1984",
+   "ota-ofc-2010",
+   "tscherne-1984",
+   "boast-open"
+  ],
+  "fractures.json — craniomaxillofacial": [
+   "ao-cmf-2014",
+   "grays-42"
+  ],
+  "3D models (separate pipeline)": [
+   "bodyparts3d",
+   "z-anatomy"
+  ]
+ }
+}
