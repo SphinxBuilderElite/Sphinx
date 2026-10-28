@@ -1,1 +1,0 @@
-import{j as t,N as e}from"./c-react-4pTqheHv.js";import{b as n,t as r}from"./c-fin-Bg63xsHx.js";function i(){return t.jsx(e,{to:`/finance/month/${n(r())}`,replace:!0})}function c(){return t.jsx(e,{to:"/finance",replace:!0})}export{c as FinanceHomeRedirect,i as default};
