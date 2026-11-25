@@ -22,14 +22,24 @@ jobs:
     timeout-minutes: 45
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deploy_try.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+      # GitHub sometimes can't find the just-uploaded artifact for a few seconds ("No artifacts named github-pages"):
+      # try once, wait, then try again instead of failing the whole publish.
+      - id: deploy_try
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 600000
+      - if: steps.deploy_try.outcome == 'failure'
+        run: sleep 45
       - id: deployment
+        if: steps.deploy_try.outcome == 'failure'
         uses: actions/deploy-pages@v4
         with:
-          timeout: 1800000 # 30 minutes instead of 10
+          timeout: 600000
